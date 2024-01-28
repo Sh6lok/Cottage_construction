@@ -118,7 +118,7 @@ form, text{
 
 /* написать в лс */
 .section-card.contact-user{
-    background-image: url('/img/bg_contact.jpg');
+    background-image: url('img/bg_contact.jpg');
     
 }
 .contact_user input,.contact_user textarea{

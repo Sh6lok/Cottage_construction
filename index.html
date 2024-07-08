@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Cottage</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+</head>
+<body>
+    <section class="intro">
+        <div class="container">
+            <header class="intro__header">
+                <a href="#" class="intro__logo">
+                    
+                    <img src="imgs/icons/logo-white.svg" alt="Logo">
+                </a>
+                <button class="intro__menu">
+                    <p class="intro__menu-text">Menu</p>
+                    <img src="imgs/icons/menu.svg" alt="Menu">
+                </button>
+                <div class="menu">
+                    <button class="menu__close"><img src="imgs/icons/close.svg" alt="close"></button>
+                    <div class="menu__links">
+                        <a  href="#about" class="menu__links-link">About us</a>
+                        <a href="#completed" class="menu__links-link">projects</a>
+                        <a href="#" class="menu__links-link_arrow">
+                            services
+                            <svg width="104" height="61" viewBox="0 0 104 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="3.53553" y1="5.22359" x2="55.156" y2="56.844" stroke="black" stroke-width="10"/>
+                                <line x1="48.8441" y1="56.0849" x2="100.465" y2="4.46445" stroke="black" stroke-width="10"/>
+                            </svg>
+                        </a>
+                        <div class="menu__links-pop-up hidden display-none">
+                            <a href="#">Planning &<br>design</a>
+                            <a href="#">Consultancy</a>
+                            <a href="#">Engineering</a>
+                            <a href="#">Major repairs</a>
+                            <a href="#">Repair &<br>Renovation</a>
+                            <a href="#">Maintenance</a>
+                        </div>
+                        <a href="#materials" class="menu__links-link">Our materials</a>
+                        <a href="#contacts" class="menu__links-link">contacts</a>
+                    </div>
+                </div>
+            </header>
+            <div class="intro__content">
+                <p class="intro__text">
+                    Premium cottages creating unique conditions for comfortable and luxurious living. Our homes are ideal for both permanent residences and country vacations.
+                </p>
+                <h2 class="intro__headline">
+                    <span>Ideal</span>
+                    <span>Cottages</span>
+                    <span class="intro__headline-word" id="word">Luxurious</span>
+                </h2>
+                <p class="intro__text">
+                    Be inspired by the surrounding nature, enjoy silence and privacy, while remaining in close proximity to the city. Your perfect home is waiting for you!  
+                </p>
+            </div>
+            <div class="intro__about">
+                <h5 class="intro__contacts-name">Dream Cottage</h5>
+                <div class="intro__contacts">
+                    <p class="intro__contacts-mail">info@premiumcottages.ru</p>
+                    <p class="intro__contacts-number">+7 (123) 456-78-90</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h3 class="about__title big-title">Uniqueness</h3>
+            <div class="container-small">
+                <div class="about__block">
+                    <picture>
+                        <source media="(max-width:1100px)" srcset="imgs/photos/about-1(small).png">
+                        <img class="about__block-img" src="imgs/photos/about-1.png" alt="Photo cottage">
+                      </picture>
+                    <div class="about__block-content">
+                        <h4 class="about__block-title"><img src="imgs/icons/star.svg" alt="star">Personalization and creativity</h4>
+                        <p class="about__block-text">We specialize in creating unique and personalized designs that reflect your unique personality, preferences and lifestyle. Our team of professionals works with you on every detail of your project to ensure you receive unrivaled quality and satisfaction.</p>
+                    </div>
+                </div>
+                <div class="about__block">
+                    <div class="about__block-content">
+                        <h4 class="about__block-title"><img src="imgs/icons/star.svg" alt="star">Quality assurance</h4>
+                        <p class="about__block-text">By partnering with us, you get the opportunity to create your perfect home that is completely customized to your needs and expectations. We offer a wide range of services, from conceptual design to bringing design ideas to life. Our experience and professionalism guarantee you the perfect result.</p>
+                    </div>
+                    <picture>
+                        <source media="(max-width:1100px)" srcset="imgs/photos/about-2(small).png">
+                        <img class="about__block-img" src="imgs/photos/about-2.png" alt="Photo cottage">
+                      </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="completed" id="completed">
+        <div class="completed__black-line">
+            <div class="container">
+            <h3 class="completed__title completed__title_left">Completed</h3>
+            <h3 class="completed__title completed__title_right">Projects</h3>
+            </div>
+        </div >
+        <div class="container">
+            <div class="completed__slider">
+                <button class="completed__slider-btn completed__slider-btn_left">
+                    <img src="imgs/icons/slider-btn_left.svg" alt="Left button">
+                </button>
+                <div class="completed__slider-content">
+                    
+                    <div class="completed__slider-card active">
+                        <img src="imgs/photos/completed-1.png" class="completed__slider-card-img"alt="Photo completed Cottage">
+                        <div class="completed__slider-card-content">
+                            <h4 class="completed__slider-title">Modern mansion in the suburbs</h4>
+                            <p class="completed__slider-text">This contemporary mansion located in a picturesque suburb was our latest completed project. Exquisite design, spacious interiors and attention to every detail make this home ideal for comfortable family living and luxurious vacations.</p>
+                        </div>
+                    </div>
+                    <div class="completed__slider-card">
+                        <img src="imgs/photos/completed-2.jpg" class="completed__slider-card-img" alt="Photo completed Cottage">
+                        <div class="completed__slider-card-content">
+                            <h4 class="completed__slider-title">Oceanfront Villa</h4>
+                            <p class="completed__slider-text">This spectacular oceanfront villa is the epitome of luxury and sophistication. Panoramic views, luxurious interiors and extensive seating areas make this home the perfect place to unwind and relax.</p>
+                        </div>
+                    </div>
+                    <div class="completed__slider-card">
+                        <img src="imgs/photos/completed-3.jpg" class="completed__slider-card-img" alt="Photo completed Cottage">
+                        <div class="completed__slider-card-content">
+                            <h4 class="completed__slider-title">Minimalist loft in the city center</h4>
+                            <p class="completed__slider-text">This stylish minimalist loft in the heart of the city center combines modern design and functionality. The open plan, high ceilings and spacious windows create an atmosphere of freedom and comfort, ideally combined with the rhythm of city life.</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <button class="completed__slider-btn completed__slider-btn_right">
+                    <img src="imgs/icons/slider-btn_right.svg" alt="Right button">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="container">
+            <div class="steps__header">
+                <h4 class="steps__subtitle">Simple steps to</h4>
+                <h3 class="steps__title">your perfect home</h3>
+            </div>
+            <div class="steps__content">
+                <div class="steps__card">
+                    <div class="steps__card-img" id="step1">
+                        <svg width="432" height="444" viewBox="0 0 432 444" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="path_line path_line-step1" d="M353 59H422M244 59H313" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M244 234L422 234" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M422 59V234" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M244 59V234" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M265.991 117.161H400.091" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M265.991 142.388H400.091" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M265.991 167.614H400.091" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M266.571 192.999H400.671" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <circle class="path_circle path_line-step1" cx="332.957" cy="58.8989" r="19.8989" stroke="black" stroke-width="8"/>
+                            <circle class="path_circle path_line-step1" cx="136.943" cy="273.943" r="95" transform="rotate(16.3876 136.943 273.943)" stroke="black" stroke-width="8"/>
+                            <circle class="path_circle path_line-step1" cx="136.943" cy="273.943" r="78" transform="rotate(16.3876 136.943 273.943)" stroke="black" stroke-width="8"/>
+                            <path class="path_line path_line-step1" d="M256 287L411 332" stroke="black" stroke-width="8" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M256 287L243 326" stroke="black" stroke-width="8" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M411 333L398 372" stroke="black" stroke-width="8" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M243 326L398 372" stroke="black" stroke-width="8" stroke-linecap="round"/>
+                            <line class="path_line path_line-step1" x1="232.711" y1="288.557" x2="252.858" y2="294.481" stroke="black" stroke-width="8"/>
+                            <line class="path_line path_line-step1" x1="224.811" y1="315.419" x2="244.958" y2="321.344" stroke="black" stroke-width="8"/>
+                            <path class="path_line path_line-step1" d="M169.222 238.615L181.807 263.163" stroke="black" stroke-width="8" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M164.144 255.884L182.147 290.364" stroke="black" stroke-width="8" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M2 2L2 134" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M136 2L136 97" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M136 2L2 2" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M99 134H2" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M99 97L99 133" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M99 97L136 97" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M99 134L136 97" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M17 46H120" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M17 65H120" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M17 84H120" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M17 103H71" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M229 157L229 385" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M229 157L28 157" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M28 157L28 385" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M28 385H229" stroke="black" stroke-width="3" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M82 255L188 255" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M96 328L176 328" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M176 256L176 328" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M149 281L149 303" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M123 281L123 303" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M149 281H123" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M149 303H123" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M96 256L96 328" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M136 209L189 255" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                            <path class="path_line path_line-step1" d="M135.624 209L82 255" stroke="black" stroke-width="4" stroke-linecap="round"/>
+                        </svg>  
+                    </div>
+                    <h4 class="steps__card-title">Needs Research</h4>
+                    <p class="steps__card-description">Our team thoroughly researches your needs and preferences to understand what you want from your future home</p>
+                </div>
+                <hr class="steps__line">
+                <div class="steps__card">
+                    <div class="steps__card-img" id="step2">
+                        <svg width="270" height="380" viewBox="0 0 417 507" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="path_line path_line-step2" d="M415 2L415 450" stroke="black" stroke-width="6" stroke-linecap="round"/>
+                            <path class="path_line path_line-step2" d="M2 57L3.00002 505" stroke="black" stroke-width="6" stroke-linecap="round"/>
+                            <path class="path_line path_line-step2" d="M41 2L415 2.00004" stroke="black" stroke-width="6" stroke-linecap="round"/>
+                            <path class="path_line path_line-step2" d="M3 505L342 505" stroke="black" stroke-width="6" stroke-linecap="round"/>
+                            <path class="path_line path_line-step2" d="M342 505L415 451" stroke="black" stroke-width="6" stroke-linecap="round"/>
+                            <path class="path_line path_line-step2" d="M2 57L41 2" stroke="black" stroke-width="6" stroke-linecap="round"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M360 50L57 50L57 38L360 38L360 50Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M360 455L57 455L57 443L360 443L360 455Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M202 230L202 50L214 50L214 230L202 230Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M57 80L57 50L69 50L69 80L57 80Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M57 360L57 142L69 142L69 360L57 360Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M202 283H69V271H202V283Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M202 290L202 265L214 265L214 290L202 290Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M259 346L245 346L245 334L259 334L259 346Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M57 443L57 422L69 422L69 443L57 443Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M348 121L348 50L360 50L360 121L348 121Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M348 315L348 183L360 183L360 315L348 315Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M348 219L276 219L276 207L348 207L348 219Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M241 219L214 219L214 207L241 207L241 219Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M348 443L348 378L360 378L360 443L348 443Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M247 443L247 346L259 346L259 443L247 443Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M202 443L202 326L214 326L214 443L202 443Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M354 183L354 121L355 121L355 183L354 183Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M62 142L62 80L63 80L63 142L62 142Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M62 422L62 360L63 360L63 422L62 422Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M354 378L354 315L355 315L355 378L354 378Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M227.971 319.394L211 290L211.866 289.5L228.837 318.894L227.971 319.394Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M212 265.394L228.971 236L229.837 236.5L212.866 265.894L212 265.394Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M248 232.971L277.394 216L277.894 216.866L248.5 233.837L248 232.971Z" fill="black"/>
+                            <path class="path_line path_line-step2" fill-rule="evenodd" clip-rule="evenodd" d="M246 345L220 360L219.5 359.134L245.5 344.134L246 345Z" fill="black"/>
+                        </svg>                                                       
+                    </div>
+                    <h4 class="steps__card-title">Creative Process</h4>
+                    <p class="steps__card-description">Our designers develop a unique design for your home, creating a concept that will fulfill your dreams</p>
+                </div> 
+                <hr class="steps__line">
+                <div class="steps__card">
+                    <div class="steps__card-img" id="step3">
+                        <svg width="447" height="375" viewBox="0 0 447 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M42.6353 200C44.8444 200 46.6353 201.791 46.6353 204L46.6353 371C46.6353 373.209 44.8444 375 42.6353 375C40.4261 375 38.6353 373.209 38.6353 371L38.6353 204C38.6353 201.791 40.4261 200 42.6353 200Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M40.2245 54.0436C42.4096 54.369 43.9171 56.4041 43.5917 58.5892L22.5917 199.589C22.2662 201.774 20.2311 203.282 18.0461 202.956C15.861 202.631 14.3535 200.596 14.6789 198.411L35.6789 57.4107C36.0044 55.2256 38.0395 53.7181 40.2245 54.0436Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M41.6353 210C41.6353 212.209 39.8444 214 37.6353 214L5.63525 214C3.42611 214 1.63525 212.209 1.63525 210C1.63525 207.791 3.42611 206 5.63525 206L37.6353 206C39.8444 206 41.6353 207.791 41.6353 210Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M443.635 211C443.635 213.209 441.844 215 439.635 215L402.635 215C400.426 215 398.635 213.209 398.635 211C398.635 208.791 400.426 207 402.635 207L439.635 207C441.844 207 443.635 208.791 443.635 211Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M225.7 25.4294C227.12 27.122 226.898 29.645 225.206 31.0646L8.20573 213.065C6.5131 214.484 3.99013 214.263 2.57051 212.57C1.15089 210.878 1.37221 208.355 3.06483 206.935L220.065 24.9351C221.757 23.5154 224.28 23.7368 225.7 25.4294Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M220.578 25.4211C222.002 23.7323 224.525 23.5178 226.214 24.942L443.214 207.942C444.903 209.366 445.117 211.89 443.693 213.579C442.269 215.267 439.745 215.482 438.057 214.058L221.057 31.0576C219.368 29.6334 219.153 27.1099 220.578 25.4211Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M399.878 54.0724C402.047 53.6541 404.145 55.0734 404.563 57.2426L431.563 197.243C431.981 199.412 430.562 201.509 428.393 201.928C426.224 202.346 424.126 200.927 423.708 198.758L396.708 58.7575C396.289 56.5883 397.709 54.4908 399.878 54.0724Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M404.635 58C404.635 60.2091 402.844 62 400.635 62L260.635 62C258.426 62 256.635 60.2091 256.635 58C256.635 55.7908 258.426 54 260.635 54L400.635 54C402.844 54 404.635 55.7909 404.635 58Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M103.635 58C103.635 60.2091 101.844 62 99.6353 62L39.6353 62C37.4261 62 35.6353 60.2091 35.6353 58C35.6353 55.7909 37.4261 54 39.6353 54L99.6353 54C101.844 54 103.635 55.7909 103.635 58Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M189.635 58C189.635 60.2091 187.844 62 185.635 62L142.635 62C140.426 62 138.635 60.2091 138.635 58C138.635 55.7909 140.426 54 142.635 54L185.635 54C187.844 54 189.635 55.7909 189.635 58Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M151.635 4C151.635 6.20914 149.844 8 147.635 8L95.6353 8C93.4261 8 91.6353 6.20914 91.6353 4C91.6353 1.79086 93.4261 0 95.6353 0L147.635 0C149.844 0 151.635 1.79086 151.635 4Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M95.6353 1C97.8444 1 99.6353 2.79086 99.6353 5V34C99.6353 36.2091 97.8444 38 95.6353 38C93.4261 38 91.6353 36.2091 91.6353 34V5C91.6353 2.79086 93.4261 1 95.6353 1Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M147.635 1C149.844 1 151.635 2.79086 151.635 5L151.635 33C151.635 35.2091 149.844 37 147.635 37C145.426 37 143.635 35.2091 143.635 33L143.635 5C143.635 2.79086 145.426 1 147.635 1Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M142.635 29C144.844 29 146.635 30.7909 146.635 33L146.635 57C146.635 59.2091 144.844 61 142.635 61C140.426 61 138.635 59.2091 138.635 57L138.635 33C138.635 30.7909 140.426 29 142.635 29Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M100.635 29C102.844 29 104.635 30.7909 104.635 33L104.635 57C104.635 59.2091 102.844 61 100.635 61C98.4261 61 96.6353 59.2091 96.6353 57L96.6353 33C96.6353 30.7909 98.4261 29 100.635 29Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M220.566 55.412C221.443 56.4784 221.29 58.0538 220.223 58.9309L34.2233 211.931C33.157 212.808 31.5816 212.655 30.7044 211.588C29.8273 210.522 29.9807 208.947 31.047 208.069L217.047 55.0695C218.113 54.1924 219.689 54.3457 220.566 55.412Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M144.135 32C144.135 33.3807 143.016 34.5 141.635 34.5L101.635 34.5C100.255 34.5 99.1353 33.3807 99.1353 32C99.1353 30.6193 100.255 29.5 101.635 29.5L141.635 29.5C143.016 29.5 144.135 30.6193 144.135 32Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M101.635 99.5C100.255 99.5 99.1353 98.3807 99.1353 97L99.1353 57C99.1353 55.6193 100.255 54.5 101.635 54.5C103.016 54.5 104.135 55.6193 104.135 57L104.135 97C104.135 98.3807 103.016 99.5 101.635 99.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M269.635 368.5C268.807 368.5 268.135 367.828 268.135 367L268.135 229C268.135 228.172 268.807 227.5 269.635 227.5C270.464 227.5 271.135 228.172 271.135 229L271.135 367C271.135 367.828 270.464 368.5 269.635 368.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M349.635 368.5C348.807 368.5 348.135 367.828 348.135 367L348.135 229C348.135 228.172 348.807 227.5 349.635 227.5C350.464 227.5 351.135 228.172 351.135 229L351.135 367C351.135 367.828 350.464 368.5 349.635 368.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M268.135 229C268.135 228.172 268.807 227.5 269.635 227.5H349.635C350.464 227.5 351.135 228.172 351.135 229C351.135 229.828 350.464 230.5 349.635 230.5H269.635C268.807 230.5 268.135 229.828 268.135 229Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M183.135 111C183.135 110.172 183.807 109.5 184.635 109.5L261.635 109.5C262.464 109.5 263.135 110.172 263.135 111C263.135 111.828 262.464 112.5 261.635 112.5L184.635 112.5C183.807 112.5 183.135 111.828 183.135 111Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M183.135 174C183.135 173.172 183.807 172.5 184.635 172.5L261.635 172.5C262.464 172.5 263.135 173.172 263.135 174C263.135 174.828 262.464 175.5 261.635 175.5L184.635 175.5C183.807 175.5 183.135 174.828 183.135 174Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M104.135 322C104.135 321.172 104.807 320.5 105.635 320.5L233.635 320.5C234.464 320.5 235.135 321.172 235.135 322C235.135 322.828 234.464 323.5 233.635 323.5L105.635 323.5C104.807 323.5 104.135 322.828 104.135 322Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M104.135 227C104.135 226.172 104.807 225.5 105.635 225.5L233.635 225.5C234.464 225.5 235.135 226.172 235.135 227C235.135 227.828 234.464 228.5 233.635 228.5L105.635 228.5C104.807 228.5 104.135 227.828 104.135 227Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M233.635 323.5C232.807 323.5 232.135 322.828 232.135 322L232.135 227C232.135 226.172 232.807 225.5 233.635 225.5C234.464 225.5 235.135 226.172 235.135 227L235.135 322C235.135 322.828 234.464 323.5 233.635 323.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M105.635 323.5C104.807 323.5 104.135 322.828 104.135 322L104.135 227C104.135 226.172 104.807 225.5 105.635 225.5C106.464 225.5 107.135 226.172 107.135 227L107.135 322C107.135 322.828 106.464 323.5 105.635 323.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M117.635 312.5C116.807 312.5 116.135 311.828 116.135 311L116.135 238C116.135 237.172 116.807 236.5 117.635 236.5C118.464 236.5 119.135 237.172 119.135 238L119.135 311C119.135 311.828 118.464 312.5 117.635 312.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M224.635 312.5C223.807 312.5 223.135 311.828 223.135 311L223.135 238C223.135 237.172 223.807 236.5 224.635 236.5C225.464 236.5 226.135 237.172 226.135 238L226.135 311C226.135 311.828 225.464 312.5 224.635 312.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M116.135 238C116.135 237.172 116.807 236.5 117.635 236.5H224.635C225.464 236.5 226.135 237.172 226.135 238C226.135 238.828 225.464 239.5 224.635 239.5H117.635C116.807 239.5 116.135 238.828 116.135 238Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M116.135 311C116.135 310.172 116.807 309.5 117.635 309.5H224.635C225.464 309.5 226.135 310.172 226.135 311C226.135 311.828 225.464 312.5 224.635 312.5H117.635C116.807 312.5 116.135 311.828 116.135 311Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M261.635 109.5C262.464 109.5 263.135 110.172 263.135 111L263.135 174C263.135 174.828 262.464 175.5 261.635 175.5C260.807 175.5 260.135 174.828 260.135 174L260.135 111C260.135 110.172 260.807 109.5 261.635 109.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M184.635 109.5C185.464 109.5 186.135 110.172 186.135 111L186.135 174C186.135 174.828 185.464 175.5 184.635 175.5C183.807 175.5 183.135 174.828 183.135 174L183.135 111C183.135 110.172 183.807 109.5 184.635 109.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M192.635 116.5C193.464 116.5 194.135 117.172 194.135 118L194.135 168C194.135 168.828 193.464 169.5 192.635 169.5C191.807 169.5 191.135 168.828 191.135 168L191.135 118C191.135 117.172 191.807 116.5 192.635 116.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M253.635 116.5C254.464 116.5 255.135 117.172 255.135 118L255.135 168C255.135 168.828 254.464 169.5 253.635 169.5C252.807 169.5 252.135 168.828 252.135 168L252.135 118C252.135 117.172 252.807 116.5 253.635 116.5Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M255.135 118C255.135 118.828 254.464 119.5 253.635 119.5L192.635 119.5C191.807 119.5 191.135 118.828 191.135 118C191.135 117.172 191.807 116.5 192.635 116.5L253.635 116.5C254.464 116.5 255.135 117.172 255.135 118Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M255.135 168C255.135 168.828 254.464 169.5 253.635 169.5H192.635C191.807 169.5 191.135 168.828 191.135 168C191.135 167.172 191.807 166.5 192.635 166.5H253.635C254.464 166.5 255.135 167.172 255.135 168Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M216.687 55.433C217.552 54.3571 219.126 54.1863 220.202 55.0516L409.202 207.052C410.278 207.917 410.449 209.491 409.583 210.567C408.718 211.642 407.144 211.813 406.069 210.948L217.069 58.9479C215.993 58.0826 215.822 56.5089 216.687 55.433Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M398.635 200C400.844 200 402.635 201.791 402.635 204L402.635 371C402.635 373.209 400.844 375 398.635 375C396.426 375 394.635 373.209 394.635 371L394.635 204C394.635 201.791 396.426 200 398.635 200Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M38.6353 371C38.6353 368.791 40.4261 367 42.6353 367H398.635C400.844 367 402.635 368.791 402.635 371C402.635 373.209 400.844 375 398.635 375H42.6353C40.4261 375 38.6353 373.209 38.6353 371Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M277.635 367.002V236H278.635V367.002H277.635Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M146.635 311L146.635 238L147.635 238L147.635 311L146.635 311Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M189.635 311L189.635 238L190.635 238L190.635 311L189.635 311Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M341.635 236L277.635 236V235L341.635 235V236Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M253.635 143L192.635 143V142L253.635 142V143Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M222.635 168L222.635 118L223.635 118L223.635 168L222.635 168Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M340.635 367.003V236H341.635V367.003H340.635Z" fill="black"/>
+                            <path class="path_line path_line-step3" fill-rule="evenodd" clip-rule="evenodd" d="M333.559 304.085C334.207 302.707 334.635 300.734 334.635 298.5C334.635 296.266 334.207 294.293 333.559 292.915C332.874 291.459 332.125 291 331.635 291C331.146 291 330.397 291.459 329.712 292.915C329.063 294.293 328.635 296.266 328.635 298.5C328.635 300.734 329.063 302.707 329.712 304.085C330.397 305.541 331.146 306 331.635 306C332.125 306 332.874 305.541 333.559 304.085ZM331.635 307C333.844 307 335.635 303.194 335.635 298.5C335.635 293.806 333.844 290 331.635 290C329.426 290 327.635 293.806 327.635 298.5C327.635 303.194 329.426 307 331.635 307Z" fill="black"/>
+                        </svg>                            
+                    </div>
+                    <h4 class="steps__card-title">Bringing the idea to life</h4>
+                    <p class="steps__card-description">After planning and design, our team starts realizing your project with high quality and attention to detail</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="materials" id="materials">
+        <h3 class="materials__title big-title">Our materials</h3>
+        <div class="container-small container_switch">
+            <div class="materials__content">
+                <div class="materials__card materials__card--active">
+                    <div class="materials__card-content">
+                        <div class="materials__card-header materials__card-header--active">
+                            <h5 class="materials__card-manufacturer">Neolith</h5>
+                            <h4 class="materials__card-name">Zaha Stone</h4>
+                        </div>
+                        <p class="materials__card-text materials__card-text--active">Composite material with the texture of natural stone, resistant to scratches, stains, and UV rays. Zaha Stone is inspired by the design of the renowned architect Zaha Hadid, giving your home a modern and stylish look. Ideal for both indoor and outdoor use, including, countertops, and walls.</p>
+                    </div>
+                    <div class="materials__card-icon materials__card-icon--active">
+                    </div>
+                </div>
+
+                <div class="materials__card">
+                    <div class="materials__card-content">
+                        <div class="materials__card-header">
+                            <h5 class="materials__card-manufacturer">Dekton</h5>
+                            <h4 class="materials__card-name">Laurent</h4>
+                        </div>
+                        <p class="materials__card-text">High-quality composite stone inspired by natural Port Laurent marble. Laurent features unique textures and deep tones, resistant to scratches, stains, and temperature changes. Perfect for countertops, walls, and floors, adding a modern and elegant look.</p>
+                    </div>
+                    <div class="materials__card-icon">       
+                    </div>
+                </div>
+
+                <div class="materials__card">
+                    <div class="materials__card-content">
+                        <div class="materials__card-header">
+                            <h5 class="materials__card-manufacturer">Porcelanosa</h5>
+                            <h4 class="materials__card-name">Marmi China</h4>
+                        </div>
+                        <p class="materials__card-text">Snow-white marble with delicate gray veins, adding refinement and nobility to your home. Marmi China is known for its clean white background, creating a bright and spacious look in any room. Popular among discerning clients, ideal for bathrooms, hallways, and fireplaces.</p>
+                    </div>
+                    <div class="materials__card-icon">       
+                    </div>
+                </div>
+                
+                <div class="materials__card">
+                    <div class="materials__card-content">
+                        <div class="materials__card-header">
+                            <h5 class="materials__card-manufacturer">Marazzi</h5>
+                            <h4 class="materials__card-name">Calacatta Gold Marble</h4>
+                        </div>
+                        <p class="materials__card-text">This elite marble with exquisite gold veining will add luxury and elegance to your interior. Calacatta Gold is known for its unique pattern, which gives each piece its own personality. It is ideal for use in bathrooms, kitchens and floors, creating a unique atmosphere.</p>
+                    </div>
+                    <div class="materials__card-icon">       
+                    </div>
+                </div>
+                
+                <div class="materials__card">
+                    <div class="materials__card-content">
+                        <div class="materials__card-header">
+                            <h5 class="materials__card-manufacturer">Cosentino</h5>
+                            <h4 class="materials__card-name">Silestone Eternal Statuario</h4>
+                        </div>
+                        <p class="materials__card-text">Quartz composite with vivid veins reminiscent of Statuario marble. This material is highly resistant to stains, scratches, and damage, making it an ideal choice for kitchens, bathrooms, and high-traffic areas. Eternal Statuario ensures durability and style for many years.</p>
+                    </div>
+                    <div class="materials__card-icon">       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="contacts-anchor"id="contacts">
+
+        </div>
+        <div class="container-small container_switch">
+            <div class="contacts__content">
+                <div class="contacts__text">
+                    <h3 class="contacts__text-title">Do you have any questions?</h3>
+                    <p class="contacts__text-description">We’re here to help! Simply leave your contact info, and our manager will call you back shortly.</p>
+                    <h4 class="contacts__text-number">+7 (123) 456-78-90</h4>
+                </div>
+                <div class="contacts__form">
+                    <img class="contacts__form-logo" src="imgs/icons/logo-black.png" alt="logo">
+                    <p class="contacts__form-description">Leave your contact info, and our manager will call you back shortly.</p>
+                    <input class="contacts__form-input" type="text" placeholder="Your name">
+                    <input class="contacts__form-input" type="number" placeholder="+38 (099) 999-88-99">
+                    <button class="contacts__form-btn">Send</button>
+                    <a href="#" class="contacts__form-policy" style="text-decoration: underline;">privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="top">
+        <hr class="footer-line">
+        <div class="container">
+            <h3 class="footer-title">Let's Build Your Dream Home</h3>
+            <div class="footer-content">
+                <img class="footer-content-logo" src="imgs/icons/logo-black.png"></img>
+                <div class="footer-content-links">
+                    <a href="#">ABOUT US</a>
+                    <a href="#">contacts</a>
+                    <a href="#">Our materials</a>
+                    <a href="#">PROJECTS</a>
+                </div>
+                <div class="footer-content-socnet">
+                    <a href="#"><img src="imgs/icons/twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="imgs/icons/inst.png" alt="instagram"></a>
+                    <a href="#"><img src="imgs/icons/linkid.png" alt="linkid"></a>
+                    <a href="#"><img src="imgs/icons/youtube.png" alt="youtube"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
